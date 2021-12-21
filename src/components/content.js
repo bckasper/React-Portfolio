@@ -1,9 +1,23 @@
-import React from 'react'
+import React, {useState} from 'react'
+import Header from './header'
+import About from './pages/about'
+
 
 const Content = () => {
+    
+    const [currentPage, setPage] = useState('About')
+    
+    const renderPage = () => {
+        if(currentPage = 'About'){
+            return <About />
+        }
+    }
+   
+    const pageChangeHandler = (page) => setPage(page)
+    
     return(
         <div>
-            <p className="text-primary">This is my content</p>
+            <Header currentPage={currentPage} pageChangeHandler={pageChangeHandler}/>
         </div>
     )
 }
