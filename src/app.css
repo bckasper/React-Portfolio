@@ -1,0 +1,37 @@
+
+
+
+
+/* About Me Section */
+.about-me{
+    position: relative;
+    padding: 0px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about-me::before{
+    content: "";
+    background-image: url(../Assets/Photos/4E7A7C25-6046-4C9A-86CE-F6DC515758E4.jpeg);
+    background-size: cover;
+    background-position: 0% 33%;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .25;
+}
+
+.about-me p {
+    position: relative;
+    color: rgb(59, 59, 59);
+    font-size: 110%;
+    line-height: 1.5;
+    text-align: left;
+    width: 60%;
+    margin-left: 30px;
+    padding-top: 30px;
+}
