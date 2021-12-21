@@ -8,7 +8,8 @@ import Footer from './footer'
 
 const Content = () => {
     
-    const [currentPage, setPage] = useState('About')
+    const [currentPage, setPage] = useState('About');
+    const pageChangeHandler = (page) => setPage(page);
     
     const renderPage = () => {
         if(currentPage === 'About'){
@@ -18,9 +19,9 @@ const Content = () => {
             return <Portfolio />;
         }
             return <Contact />;
-    }
+    };
    
-    const pageChangeHandler = (page) => setPage(page)
+    
     
     return(
         <div>

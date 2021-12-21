@@ -1,15 +1,13 @@
 import React from 'react'
 
-
-
-const Header = ({currentPage, changePageHandler}) => {
+const Header = ({currentPage, pageChangeHandler}) => {
     return(
         <ul className='nav nav-tabs'>
             
             <li className="nav-item">
                 <a
-                href="#about"
-                  onClick={() => changePageHandler('About')}
+                href="#About"
+                  onClick={() => pageChangeHandler('About')}
                   className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                 >
                 About
@@ -18,8 +16,8 @@ const Header = ({currentPage, changePageHandler}) => {
 
             <li className="nav-item">
                 <a
-                href="#portfolio"
-                  onClick={() => changePageHandler('Portfolio')}
+                href="#Portfolio"
+                  onClick={() => pageChangeHandler('Portfolio')}
                   className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                 >
                 Portfolio
@@ -28,8 +26,8 @@ const Header = ({currentPage, changePageHandler}) => {
 
             <li className="nav-item">
                 <a
-                href="#contact"
-                  onClick={() => changePageHandler('Contact')}
+                href="#Contact"
+                  onClick={() => pageChangeHandler('Contact')}
                   className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                 >
                 Contact
