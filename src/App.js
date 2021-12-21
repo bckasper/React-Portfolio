@@ -1,14 +1,22 @@
+import React from 'react'
+import Footer from './components/footer'
+import Header from './components/header'
+import Content from './components/content'
 
-import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Welcome
-        </p>
-      </header>
+      
+      {/* Header with navigation */}
+      <Header />
+      
+      {/* Content that will hold the bio, potfolio, contact form and resume */}
+      <Content />
+
+      {/* Persistent footer with Github, LinkedIn, and third portfolio option */}
+      <Footer />
     </div>
   );
 }
