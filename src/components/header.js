@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = ({currentPage, pageChangeHandler}) => {
     return(
-        <ul className='nav nav-tabs'>
+        <ul className='nav nav-tabs bg-dark py-2'>
             
-            <li className="nav-item">
+            <li className="nav-item text-light">
                 <a
                 href="#About"
                   onClick={() => pageChangeHandler('About')}
