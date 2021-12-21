@@ -10,7 +10,7 @@ const Header = ({currentPage, changePageHandler}) => {
                 <a
                 href="#about"
                   onClick={() => changePageHandler('About')}
-                //   className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                  className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                 >
                 About
                 </a>
@@ -20,7 +20,7 @@ const Header = ({currentPage, changePageHandler}) => {
                 <a
                 href="#portfolio"
                   onClick={() => changePageHandler('Portfolio')}
-                //   className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                  className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                 >
                 Portfolio
                 </a>
@@ -30,7 +30,7 @@ const Header = ({currentPage, changePageHandler}) => {
                 <a
                 href="#contact"
                   onClick={() => changePageHandler('Contact')}
-                //   className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                  className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                 >
                 Contact
                 </a>
