@@ -1,3 +1,21 @@
+.nav-item-custom{
+    font-size: 120%;
+    justify-content: end;
+}
+
+.active{
+    background: white;
+    border-radius: 0.5rem;
+}
+
+.navbar-custom{
+    margin-left: auto;
+}
+
+
+
+
+
 /* About Me Section */
 .about-me{
     position: relative;
@@ -25,7 +43,7 @@
 .about-me p {
     position: relative;
     color: rgb(59, 59, 59);
-    font-size: 110%;
+    font-size: 150%;
     line-height:2;
     text-align: left;
     width: 60%;
