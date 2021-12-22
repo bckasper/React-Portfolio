@@ -71,3 +71,9 @@
 .contact-bg{
     background: rgb(250, 250, 250);
 }
+
+/* Screenshot styling */
+.weather-photo{
+    max-height: 300rem;
+    max-width: 50rem;
+}
