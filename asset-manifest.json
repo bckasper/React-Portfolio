@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.1a8a0596.css",
-    "main.js": "/react-portfolio/static/js/main.95075a54.js",
+    "main.css": "/react-portfolio/static/css/main.e7a53234.css",
+    "main.js": "/react-portfolio/static/js/main.42c616f0.js",
     "static/js/787.cf250828.chunk.js": "/react-portfolio/static/js/787.cf250828.chunk.js",
+    "static/media/4E7A7C25-6046-4C9A-86CE-F6DC515758E4.jpeg": "/react-portfolio/static/media/4E7A7C25-6046-4C9A-86CE-F6DC515758E4.0d819034d7d6febcd3d9.jpeg",
+    "static/media/rock-paper-scissors.png": "/react-portfolio/static/media/rock-paper-scissors.c9608e98b6319743850f.png",
+    "static/media/weather-app.png": "/react-portfolio/static/media/weather-app.5bed06a7762b8504d19e.png",
+    "static/media/Resume_Ben Kasper.pdf": "/react-portfolio/static/media/Resume_Ben Kasper.363c736c2233433fe7a7.pdf",
+    "static/media/team-generator.png": "/react-portfolio/static/media/team-generator.9270ec37f681eb12493a.png",
+    "static/media/Main_page.png": "/react-portfolio/static/media/Main_page.54ce16275cc68b138a66.png",
+    "static/media/plannr.png": "/react-portfolio/static/media/plannr.ce9fdf715aa8b3aea12a.png",
+    "static/media/Pwd_Generator_Complete.png": "/react-portfolio/static/media/Pwd_Generator_Complete.5ae50770f05530485ecb.png",
     "index.html": "/react-portfolio/index.html",
-    "main.1a8a0596.css.map": "/react-portfolio/static/css/main.1a8a0596.css.map",
-    "main.95075a54.js.map": "/react-portfolio/static/js/main.95075a54.js.map",
+    "main.e7a53234.css.map": "/react-portfolio/static/css/main.e7a53234.css.map",
+    "main.42c616f0.js.map": "/react-portfolio/static/js/main.42c616f0.js.map",
     "787.cf250828.chunk.js.map": "/react-portfolio/static/js/787.cf250828.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a8a0596.css",
-    "static/js/main.95075a54.js"
+    "static/css/main.e7a53234.css",
+    "static/js/main.42c616f0.js"
   ]
 }
