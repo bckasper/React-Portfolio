@@ -1,4 +1,5 @@
 import React from 'react'
+import Resume from '../assets/Resume_Ben Kasper.pdf'
 
 const Header = ({currentPage, pageChangeHandler}) => {
     return(
@@ -36,8 +37,17 @@ const Header = ({currentPage, pageChangeHandler}) => {
                         Contact
                         </a>
                     </li>
+
+                    <li className="nav-item nav-item-custom">
+                        <a
+                        href={Resume}
+                        target='_blank'
+                        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                        >
+                        Resume
+                        </a>
+                    </li>
                 </ul>
-            
         </div>
     )
 }
