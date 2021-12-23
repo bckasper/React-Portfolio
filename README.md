@@ -7,7 +7,7 @@ I am always looking to collaborate and meet others, so please feel free to reach
 
 ## Accessing the application
 
-**Deployed Heroku App:** https://bckasper.github.io/react-portfolio/
+**Deployed App:** https://bckasper.github.io/react-portfolio/
 
 **Github Repo:** https://github.com/bckasper/react-portfolio
 
