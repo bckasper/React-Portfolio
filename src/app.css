@@ -74,19 +74,15 @@
 
 /* Screenshot styling */
 .app-bg{
-    background:chartreuse;
+    background:rgba(198, 215, 255, 0.598);
+    min-height: 500px;
+    padding-top: 1rem;
 }
 
-.weather-photo{
-    max-height: 300rem;
-    max-width: 50rem;
-}
-
-.team-photo{
-    max-width: 30rem;
+.photos{
+    max-width: 90%;
     margin:auto;
-    justify-self: center;
-    justify-items: center;
-    justify-content: center;
-    text-align: center;
+    max-height: 90%;
+    overflow: hidden;
+    margin-bottom: 2rem;
 }
