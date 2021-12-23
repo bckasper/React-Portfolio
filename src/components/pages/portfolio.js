@@ -27,8 +27,8 @@ export default function Portfolio() {
             <h3 className='text-center'>Team Profile Generator</h3> 
             <p className='text-center'>An easy-to-use backend tool to generate a team profile webpage.</p>
         <img src={TeamGenerator} className="photos"></img>
-            <a className="btn btn-outline-primary mx-1 mb-3" href="https://bckasper.github.io/Fancy-Weather-App/" target="_blank">Go to App</a>
-            <a  className="btn btn-outline-dark mx-1 mb-3" href= 'https://github.com/bckasper/Fancy-Weather-App' target="_blank">Github Repo</a>
+            <a className="btn btn-outline-primary mx-1 mb-3" href="https://youtu.be/Gk-zDZM-wAE" target="_blank">App Demo</a>
+            <a  className="btn btn-outline-dark mx-1 mb-3" href= 'https://github.com/bckasper/team-profile-generator' target="_blank">Github Repo</a>
         </div>
        
         {/* Javascript Quiz application */}
@@ -54,8 +54,8 @@ export default function Portfolio() {
             <h3 className='text-center'>Password Generator</h3>
             <p>Don't trust other password generators? Use ours!</p>
             <img src={PW} className='photos'></img>
-            <a className="btn btn-outline-primary mx-1 mb-3" href="https://bckasper.github.io/Rock-Paper-Scissors/" target="_blank">Go to App</a>  
-            <a  className="btn btn-outline-dark mx-1 mb-3" href= 'https://github.com/bckasper/Rock-Paper-Scissors' target="_blank">Github Repo</a>
+            <a className="btn btn-outline-primary mx-1 mb-3" href="https://bckasper.github.io/Password-Generator/" target="_blank">Go to App</a>  
+            <a  className="btn btn-outline-dark mx-1 mb-3" href= 'https://github.com/bckasper/Password-Generator' target="_blank">Github Repo</a>
         </div> 
 
        {/* Note Taker application */}
@@ -63,8 +63,8 @@ export default function Portfolio() {
             <h3 className='text-center'>Note Taker</h3>
             <p>A simple application to help you take notes.</p>
             <img src={Planner} className='photos'></img>
-            <a className="btn btn-outline-primary mx-1 mb-3" href="https://bckasper.github.io/Rock-Paper-Scissors/" target="_blank">Go to App</a>    
-            <a  className="btn btn-outline-dark mx-1 mb-3" href= 'https://github.com/bckasper/Rock-Paper-Scissors' target="_blank">Github Repo</a>
+            <a className="btn btn-outline-primary mx-1 mb-3" href="https://morning-hamlet-04510.herokuapp.com/" target="_blank">Go to App</a>    
+            <a  className="btn btn-outline-dark mx-1 mb-3" href= 'https://github.com/bckasper/note-taker-app' target="_blank">Github Repo</a>
         </div>
 
 
